@@ -9,24 +9,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@400;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
     <link rel="stylesheet" href="css/styile.css">
 </head>
 <body>
     <header class="header">
+        
         <div class="header__top">
             <div class="header__top-info">
-            <img width="16" class="header__top-img-phone" src="images/phone-outline.svg" alt="">
+            <img width="16" class="header__top-img-phone" src="images/phone-outline.svg" alt="phone-outline.">
             <span class="header__top-registr">8 (812) 123-45-67  |  Работаем 7 дней в неделю  |  9:00 — 18:00</span>
             </div>
             <div class="header__top-in">
-             <img width="14" class="header__top-img-in" src="images/log-in.svg" alt="">
+             <img width="14" class="header__top-img-in" src="images/log-in.svg" alt="log-in">
              <a class="header__top-registr" href="#">Войти / Регистрация</a>
             
             </div>
-        </div>
+            </div>
         
             <nav class="nav">
-                <a href="index.html"><img class="nav__logo" src="images/logo-nav.svg" alt="" ></a>
+                <button class="nav__btn">
+                    <span></span>
+                </button>
+                <a href="index.html"><img class="nav__logo" src="images/logo-nav.svg" alt="logo" ></a>
             
             <div class="nav__items">
                 <ul class="nav__item">
@@ -46,8 +52,10 @@
                 </div>
             </div>
             </nav>
+        </div>
     </header>
-    <section class="hero">
+    <main>
+        <section class="hero">
         <div class="container">
             <div class="hero__inner">
                 <div class="hero__logo"><img class="hero__logo-img" src="images/logo.svg" alt=""></div>
@@ -56,8 +64,8 @@
             ipsum sem metus pharetra, mi. Tortor nibh magna feugiat id nunc, dui nisl viverra.</p>
             </div>
         </div>
-    </section>
-    <section class="new-collection">
+        </section>
+        <section class="new-collection">
         <div class="container">
             <div class="new-collection__inner">
                 <div class="new-collection__new-season">
@@ -86,8 +94,8 @@
                 </div> 
             </div> 
         </div>
-    </section>
-    <section class="old-collection">
+        </section>
+         <section class="old-collection">
         <div class="container">
             <div class="old-collection__inner">
                 <div class="old-collection__img">
@@ -107,8 +115,8 @@
                 </div>   
             </div>          
         </div>
-    </section>
-    <secion class="arrivals">
+        </section>
+        <secion class="arrivals">
         <div class="container">
             <div class="arrivals__inner">
                 <h2 class="title">новые поступления</h2>
@@ -156,8 +164,8 @@
                 </ul>   
             </div>
         </div>
-    </secion>
-    <section class="brands">
+        </secion>
+        <section class="brands">
         <div class="container">
             <div class="brands__inner">
                <h2 class="title">наши бренды</h2>
@@ -169,8 +177,10 @@
                 </ul> 
             </div>
         </div>
-    </section>
+        </section>
+    </main>
     <footer class="fotter">
+
         <div class="container">
             <div class="footer__inner">
                 <div class="fotter__shop">
@@ -200,5 +210,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
